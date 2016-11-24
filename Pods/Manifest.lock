@@ -1,0 +1,48 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Nimble (5.1.1)
+  - Nimble-Snapshots (4.4.0):
+    - Nimble-Snapshots/Core (= 4.4.0)
+  - Nimble-Snapshots/Core (4.4.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble
+    - Quick
+  - Nimble-Snapshots/DynamicSize (4.4.0):
+    - Nimble-Snapshots/Core
+  - Nimble-Snapshots/DynamicType (4.4.0):
+    - Nimble-Snapshots/Core
+    - OCMock (~> 3.3)
+  - OCMock (3.3.1)
+  - Quick (1.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Nimble
+  - Nimble-Snapshots (from `https://github.com/BrunoMazzo/Nimble-Snapshots.git`)
+  - Nimble-Snapshots/DynamicSize (from `https://github.com/BrunoMazzo/Nimble-Snapshots.git`)
+  - Nimble-Snapshots/DynamicType (from `https://github.com/BrunoMazzo/Nimble-Snapshots.git`)
+  - Quick
+
+EXTERNAL SOURCES:
+  Nimble-Snapshots:
+    :git: https://github.com/BrunoMazzo/Nimble-Snapshots.git
+
+CHECKOUT OPTIONS:
+  Nimble-Snapshots:
+    :commit: a18e979c653c40e3c75f1e8a5afade26c225b79e
+    :git: https://github.com/BrunoMazzo/Nimble-Snapshots.git
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
+  OCMock: f3f61e6eaa16038c30caa5798c5e49d3307b6f22
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+
+PODFILE CHECKSUM: f1ff4d600f6c1d0a89952f96889246c64f4bda08
+
+COCOAPODS: 1.1.1
