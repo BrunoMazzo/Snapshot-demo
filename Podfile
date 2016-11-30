@@ -12,9 +12,9 @@ target 'Snapshot' do
 
     pod 'Quick'
     pod 'Nimble'
-    pod 'Nimble-Snapshots', :git => 'https://github.com/BrunoMazzo/Nimble-Snapshots.git'
-    pod 'Nimble-Snapshots/DynamicSize', :git => 'https://github.com/BrunoMazzo/Nimble-Snapshots.git'
-    pod 'Nimble-Snapshots/DynamicType', :git => 'https://github.com/BrunoMazzo/Nimble-Snapshots.git'
+    pod 'Nimble-Snapshots'
+    pod 'Nimble-Snapshots/DynamicSize'
+    pod 'Nimble-Snapshots/DynamicType'
 
     pod 'FBSnapshotTestCase'
     # Pods for testing

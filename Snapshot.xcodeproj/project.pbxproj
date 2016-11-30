@@ -187,8 +187,7 @@
 				TargetAttributes = {
 					1DC990871DE65C5F00C4F054 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2X4LBZ9HK8;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					1DC9909B1DE65C5F00C4F054 = {
 						CreatedOnToolsVersion = 8.1;
@@ -419,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -462,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -475,7 +474,7 @@
 			baseConfigurationReference = 36D5E770FDF8C98B28557797 /* Pods-Snapshot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2X4LBZ9HK8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Snapshot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.brunomazzo.Snapshot;
@@ -489,7 +488,7 @@
 			baseConfigurationReference = 8C3BAB66188ACB29BACC890E /* Pods-Snapshot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2X4LBZ9HK8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Snapshot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.brunomazzo.Snapshot;

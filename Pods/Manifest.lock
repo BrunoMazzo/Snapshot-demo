@@ -22,19 +22,10 @@ PODS:
 DEPENDENCIES:
   - FBSnapshotTestCase
   - Nimble
-  - Nimble-Snapshots (from `https://github.com/BrunoMazzo/Nimble-Snapshots.git`)
-  - Nimble-Snapshots/DynamicSize (from `https://github.com/BrunoMazzo/Nimble-Snapshots.git`)
-  - Nimble-Snapshots/DynamicType (from `https://github.com/BrunoMazzo/Nimble-Snapshots.git`)
+  - Nimble-Snapshots
+  - Nimble-Snapshots/DynamicSize
+  - Nimble-Snapshots/DynamicType
   - Quick
-
-EXTERNAL SOURCES:
-  Nimble-Snapshots:
-    :git: https://github.com/BrunoMazzo/Nimble-Snapshots.git
-
-CHECKOUT OPTIONS:
-  Nimble-Snapshots:
-    :commit: a18e979c653c40e3c75f1e8a5afade26c225b79e
-    :git: https://github.com/BrunoMazzo/Nimble-Snapshots.git
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
@@ -43,6 +34,6 @@ SPEC CHECKSUMS:
   OCMock: f3f61e6eaa16038c30caa5798c5e49d3307b6f22
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
 
-PODFILE CHECKSUM: f1ff4d600f6c1d0a89952f96889246c64f4bda08
+PODFILE CHECKSUM: 84e257b48e15015711a6225bc7557da7c7d49673
 
 COCOAPODS: 1.1.1

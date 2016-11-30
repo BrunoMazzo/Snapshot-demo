@@ -32,6 +32,10 @@ class NimbleLikeTests: QuickSpec {
             it("should have spected snapshot for sizes") {
                 expect(viewController) == snapshot("ViewController", sizes: ["Big": CGSize(width: 500, height: 700), "Small": CGSize(width: 320, height: 400)])
             }
+            
+            it("should have spected snapshot for all font dynamic sizes") {
+                expect(viewController) == dynamicTypeSnapshot("ViewController")
+            }
         }
     }
 }
